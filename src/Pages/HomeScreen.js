@@ -6,6 +6,16 @@ import "../Css/WebStyle.css";
 import pic from "../Web_Images/SpeedstersLogo6.png"; 
 import nicole from"../Web_Images/Nicole.jpg";
 import me from "../Web_Images/Me.png"; 
+import skate from "../Web_Images/SS.stl"; 
+import { StlViewer } from 'react-stl-viewer';
+
+const style = {
+  top: 0,
+  left: 0,
+  width: '70%',
+  height: '50vh',
+}
+
 
 export const HomeScreen = () => {
     return (
@@ -53,6 +63,17 @@ export const HomeScreen = () => {
         </div>
         <hr className='top-margin'></hr>
     </Row>
+<Row className='green'>
+  <div className='extra-padding'> 
+<StlViewer
+className='stl-div'
+            style={style}
+            orbitControls
+            shadows
+            url={skate}
+        />
+   </div>
+</Row>
 
 </Container>
     ); 

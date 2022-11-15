@@ -215,3 +215,11 @@ color: white;
   .des-text {
     float:  left !important;
   }
+
+  .stl-div{
+    background-color: white !important;
+    border: black !important;
+    border-style: groove !important;
+    border-width: 10px !important;
+    width: 50% !important;
+  }
