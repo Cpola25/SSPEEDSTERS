@@ -18,6 +18,11 @@ background-color: rgb(69, 105, 69) !important;
 color: white;
 
 }
+.background1{
+  background-image: url("../Web_Images/BackgroundFlowers.png");
+  background-size: 100% 130% !important;
+  background-repeat: no-repeat !important;
+}
 /***************************************************************************/
 /** -------------------- Fonts --------------------------------------*/
 /***************************************************************************/
@@ -31,6 +36,11 @@ color: white;
 }
 .font-large{
   font-size: 3vh !important;
+}
+.font-medium{
+  font-size: 1.9vh !important;
+  font-weight: 600 !important;
+  
 }
 /***************************************************************************/
                          /**Extra Space N Such */
@@ -215,11 +225,16 @@ color: white;
   .des-text {
     float:  left !important;
   }
-
   .stl-div{
     background-color: white !important;
     border: black !important;
     border-style: groove !important;
     border-width: 10px !important;
     width: 50% !important;
+    border-radius: 20% !important;
+    margin-left: 5% !important;
+  }
+
+  .video-div{
+    margin-left: 35% !important;
   }
