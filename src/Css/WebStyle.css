@@ -10,7 +10,7 @@ background-color: rgb(103, 148, 187);
 color: black !important;
 }
 .red{
-background-color: rgb(97, 46, 46);
+background-color: rgb(50, 20, 20);
 color: white !important;
 }
 .green{
@@ -18,16 +18,21 @@ background-color: rgb(69, 105, 69) !important;
 color: white;
 
 }
+.grey{
+  background-color: rgb(49, 51, 49) !important;
+color: white;
+}
 .background1{
   background-image: url("../Web_Images/BackgroundFlowers.png");
-  background-size: 100% 130% !important;
+  background-size: 100% 100% !important;
   background-repeat: no-repeat !important;
 }
 .background2{
-  background-image: url("../Web_Images/SpeedstersLogo9.png");
+  background-image: url("../Web_Images/Banner/PondPic.png");
   background-size: 100% 100% !important;
   background-repeat: no-repeat !important;
-  padding: 30% 30% 20% 30% !important;
+  padding-top: 30% !important;
+  padding-bottom: 7% !important;
  
 }
 /***************************************************************************/
@@ -124,7 +129,7 @@ color: white;
 
 .team-person {
   width: 100%;
-  border-radius: 0% !important;
+  border-radius: 10% !important;
   margin-bottom: 5% !important;
   box-shadow: 0.3em 0.3em 0.4em 0em rgba(32, 32, 32, 0.758);
 
@@ -193,6 +198,7 @@ color: white;
 /***************************************************************************/
 .App {
     text-align: center;
+
   }
   
   .App-logo {
@@ -207,7 +213,7 @@ color: white;
   }
   
   .App-header {
-    background-color: #000000;
+    background-color: #ffffff;
     min-height: 50%;
     display: flex;
     flex-direction: column;
@@ -215,8 +221,14 @@ color: white;
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    float: left !important;
+    margin-left: 7% !important;
+    margin-right: 3% !important;
   }
-  
+  .App-header2 {
+    float: right !important;
+   
+  }
   .App-link {
     color: #61dafb;
   }
@@ -246,7 +258,12 @@ color: white;
   .video-div{
     margin-left: 35% !important;
   }
-
+.ban-text{
+  padding-top: 10% !important;
+}
+.we-be{
+width: 88% !important;
+}
 
 /***************************************************************************/
                          /** Shop */
@@ -317,11 +334,159 @@ color: white;
   width: 20% !important;
   margin-right: 5% !important;
   border-radius: 10% !important;
+  margin-bottom: 3% !important;
 }
 
 .shop-div {
   width: 96% !important;
   margin-left: 1% !important;
+  padding: 5% !important;
+
+
+}
+
+/***************************************************************************/
+                         /** Contact Component */
+/***************************************************************************/
+
+.contact-message {
+  width: 90% !important;
+  padding-bottom: 15% !important;
+}
+
+.contact-name {
+  width: 40% !important;
+  float: left !important;
+  margin-right: 3% !important;
+}
+
+.contact-email {
+  width: 47% !important;
+  float: left !important;
+}
+
+.contact-subject {
+  width: 90% !important;
+}
+
+.contact-container {
+  margin-left: 9% !important;
+  padding: 5% !important;
+  padding-top: 2% !important;
+}
+
+input,
+select,
+textarea {
+  border: none !important;
+  color: white !important;
+  background-color: rgba(35, 44, 83, 0.426) !important;
+  margin: 0;
+  font-family: 'Nanum Gothic Coding', monospace !important;
+  font-size: inherit;
+  line-height: 2ch !important;
+  width: 40% !important;
+  margin-bottom: 2% !important;
+  padding: 2% !important;
+
+}
+
+.contact-sendButton {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: rgb(213, 213, 213) !important;
+  border-style: double !important;
+  border-width: 1px !important;
+  width: 30% !important;
+  padding: 0.9% !important;
+  margin-left: 30% !important;
+
+
+}
+
+.contact-sendButton:hover {
+  background-color: rgba(101, 101, 101, 0.123) !important;
+  border: rgb(94, 94, 94) !important;
+  border-style: double !important;
+  border-width: 1px !important;
+
+
+}
+.contact-heading {
+  margin-left: 3.5% !important;
+}
+
+
+.not-availableText {
+  background-color: rgba(0, 0, 0, 0.496) !important;
+  padding: 1% !important;
+  letter-spacing: 0.3ch !important;
+  padding-top: 3% !important;
+  margin-top: 10% !important;
+}
+
+
+/***************************************************************************/
+                         /**  Shop Component */
+/***************************************************************************/
+
+.nav-link {
+  color: #696969 !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5ch !important;
+}
+
+.nav-tabs .nav-link.active {
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+  border-color: #000000 #000000 rgb(0, 0, 0);
+
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #000000 !important;
+}
+
+.shop-warning {
+  letter-spacing: 0.3ch !important;
+}
+
+.membership-div {
+  margin-top: 6% !important;
+  margin-left: 14% !important;
+  padding-bottom: 7% !important;
+}
+
+.member-ship {
+  width: 30% !important;
+  margin-right: 3% !important;
+  float: left !important;
+}
+
+.member-shipText {
+  text-align: left !important;
+  width: 80% !important;
+  letter-spacing: 0.3ch !important;
+}
+
+.buy-button {
+  background-color: rgb(106, 3, 3) !important;
+  border-radius: 0;
+  padding: 1% !important;
+  width: 25% !important;
+  letter-spacing: 0.2ch;
+  font-size: small !important;
+  border: none !important
+}
+
+.merch-pic {
+  width: 30% !important;
+  margin-right: 5% !important;
+  border-radius: 10% !important;
+}
+
+.shop-div {
+  width: 96% !important;
+  margin-left: 2% !important;
   padding: 5% !important;
 
 

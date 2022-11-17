@@ -5,6 +5,7 @@ import { Container, Row } from "react-bootstrap";
 import {HomeScreen} from "../src/Pages/HomeScreen.js"
 import { Navigation } from "./Components/Navigation";
 import { Shop } from "./Pages/Shop";
+import { ContactUs } from "./Components/Contact";
 import { Route, Routes } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css'; 
 import React from "react";
@@ -21,8 +22,8 @@ function App() {
   <HomeScreen></HomeScreen>
       </Row>
       <Row>
-      
-        <Shop></Shop>
+      <ContactUs></ContactUs>
+        
       </Row>
     </Container>
 

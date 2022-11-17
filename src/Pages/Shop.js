@@ -8,6 +8,12 @@ import Shirt1 from "../Web_Images/Shop_Pics/Shirts/Black_Shirt.png";
 import Shirt2 from "../Web_Images/Shop_Pics/Shirts/Blue_Shirt.png"; 
 import Shirt3 from "../Web_Images/Shop_Pics/Shirts/Green_Shirt.png"; 
 import Shirt4 from "../Web_Images/Shop_Pics/Shirts/Grey_shirt.png"; 
+import S1 from "../Web_Images/Shop_Pics/Accesories/blacl.png"; 
+import S2 from "../Web_Images/Shop_Pics/Accesories/blue.png"; 
+import S3 from "../Web_Images/Shop_Pics/Accesories/green.png"; 
+import S4 from "../Web_Images/Shop_Pics/Accesories/pink.png"; 
+import S5 from "../Web_Images/Shop_Pics/Accesories/purple.png"; 
+import S6 from "../Web_Images/Shop_Pics/Accesories/teal.png"; 
 import skate from "../Web_Images/SS.stl"; 
 import { StlViewer } from 'react-stl-viewer';
 
@@ -21,11 +27,13 @@ const style = {
 export const Shop = () => {
     const [key, setKey] = useState("profile");
     return (
-<Container>
-    <Row>
+<Container className="red">
+    <Row className="font-style text-center black">
         <h1>
-            Shop
+          Shop
         </h1>
+       <p>     </p>
+        <p className=" font-read">Become a SSPEEDSTER!</p>
     </Row>
     <Row>
 <div className="shop-div">
@@ -69,9 +77,12 @@ className='stl-div'
               </div>
 
       
-                <Button disabled className="buy-button top-margin">
-                  COMING SOON
-                </Button>
+            <Image className="merch-pic" src={S1} />
+            <Image className="merch-pic" src={S2} />
+            <Image className="merch-pic" src={S3} />
+            <Image className="merch-pic" src={S4} />
+            <Image className="merch-pic" src={S5} />
+            <Image className="merch-pic" src={S6} />
               </div>
               
             
