@@ -23,6 +23,13 @@ color: white;
   background-size: 100% 130% !important;
   background-repeat: no-repeat !important;
 }
+.background2{
+  background-image: url("../Web_Images/SpeedstersLogo9.png");
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+  padding: 30% 30% 20% 30% !important;
+ 
+}
 /***************************************************************************/
 /** -------------------- Fonts --------------------------------------*/
 /***************************************************************************/
@@ -232,9 +239,90 @@ color: white;
     border-width: 10px !important;
     width: 50% !important;
     border-radius: 20% !important;
-    margin-left: 5% !important;
+    margin-right: 5% !important;
+    float: left;
   }
 
   .video-div{
     margin-left: 35% !important;
   }
+
+
+/***************************************************************************/
+                         /** Shop */
+/***************************************************************************/
+.nav-link {
+  color: #696969 !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5ch !important;
+}
+
+.nav-tabs .nav-link.active {
+  color: #ffffff !important;
+  background-color: rgb(73, 106, 125) !important;
+  border-color: #000000 #000000 rgb(0, 0, 0);
+  border-width: 6px !important;
+
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #000000 !important;
+}
+
+.shop-warning {
+  letter-spacing: 0.3ch !important;
+}
+
+.membership-div {
+  margin-top: 6% !important;
+  margin-left: 14% !important;
+  padding-bottom: 7% !important;
+}
+
+.member-ship {
+  width: 30% !important;
+  margin-right: 3% !important;
+  float: left !important;
+}
+
+.member-shipText {
+  padding-top: 12% !important;
+  text-align: left !important;
+  width: 95% !important;
+  letter-spacing: 0.3ch !important;
+}
+
+.buy-button {
+  background-color: rgba(68, 68, 68, 0.391) !important;
+  border-color: rgb(0, 0, 0) !important;
+  border-style: groove !important;
+  color: black !important;
+  border-width: 10rem !important;
+  border-radius: 2% !important;
+  padding: 1% !important;
+  width: 15% !important;
+  letter-spacing: 0.2ch;
+  font-size: small !important;
+  border: none !important; 
+  float: left !important; 
+}
+.buy-button:hover{
+
+}
+.buy-button:active{
+
+}
+
+.merch-pic {
+  width: 20% !important;
+  margin-right: 5% !important;
+  border-radius: 10% !important;
+}
+
+.shop-div {
+  width: 96% !important;
+  margin-left: 1% !important;
+  padding: 5% !important;
+
+
+}
