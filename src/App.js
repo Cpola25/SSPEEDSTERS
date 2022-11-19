@@ -6,6 +6,7 @@ import { Container, Row } from "react-bootstrap";
 import {HomeScreen} from "../src/Pages/HomeScreen.js"
 import { Navigation } from "./Components/Navigation";
 import { Shop } from "./Pages/Shop";
+import { Story } from "./Pages/Story";
 import { Footer } from "./Components/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css'; 
@@ -20,8 +21,7 @@ function App() {
          <Router>
           <Routes>
        <Route path="/" element={<HomeScreen/>} />
-       <Route path="/team" element={<HomeScreen/>} />
-       <Route path="/story" element={<HomeScreen/>} />
+       <Route path="/story" element={<Story/>} />
        <Route path="/shop" element={<Shop/>} />
 
           </Routes>

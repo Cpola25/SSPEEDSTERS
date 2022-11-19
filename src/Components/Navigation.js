@@ -17,7 +17,7 @@ export const Navigation = () => {
               src= {Logo6}
               className="font-style font-large"
             >
-           Speedsters
+           SSpeedsters
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -26,11 +26,8 @@ export const Navigation = () => {
                   <Button href="/" className="nav-button">
                     Home
                   </Button>
-                  <Button href="/team" className="nav-button">
-                  Team
-                  </Button>
                   <Button href="/story" className="nav-button">
-                   Story
+                  Story
                   </Button>
                   <Button href="/shop" className="nav-button">
                    Products

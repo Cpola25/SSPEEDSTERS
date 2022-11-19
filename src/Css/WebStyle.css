@@ -178,6 +178,7 @@ color: white;
     background-color: transparent !important;
     border-color: transparent !important;
     font-size: 1.5vw !important;
+    margin-left: 6% !important;
     padding-left: 1% !important;
     padding-right: 1% !important; 
     border-radius:  0% !important;
@@ -257,10 +258,12 @@ color: white;
     border: black !important;
     border-style: groove !important;
     border-width: 10px !important;
-    width: 50% !important;
-    border-radius: 20% !important;
-    margin-right: 5% !important;
-    float: left;
+    width: 100% !important;
+    height: 100% !important; 
+    border-radius: 0% !important;
+   margin-left: 1% !important;
+   margin-bottom: 8% !important;
+   
   }
 
   .video-div{
@@ -278,7 +281,7 @@ margin-left: 5% !important;
                          /** Shop */
 /***************************************************************************/
 .nav-link {
-  color: #9e9e9e !important;
+  color: #cccccc !important;
   font-weight: 700 !important;
   letter-spacing: 0.5ch !important;
 }
@@ -300,44 +303,27 @@ margin-left: 5% !important;
   letter-spacing: 0.3ch !important;
 }
 
-.membership-div {
-  margin-top: 6% !important;
-  margin-left: 14% !important;
-  padding-bottom: 7% !important;
-}
-
-.member-ship {
-  width: 30% !important;
-  margin-right: 3% !important;
-  float: left !important;
-}
-
-.member-shipText {
-  padding-top: 12% !important;
-  text-align: left !important;
-  width: 95% !important;
-  letter-spacing: 0.3ch !important;
-}
-
 .buy-button {
-  background-color: rgba(68, 68, 68, 0.391) !important;
+  background-color: rgba(167, 18, 18, 0.6) !important;
   border-color: rgb(0, 0, 0) !important;
   border-style: groove !important;
-  color: black !important;
+  color: rgb(255, 255, 255) !important;
   border-width: 10rem !important;
   border-radius: 2% !important;
-  padding: 1% !important;
-  width: 15% !important;
+  padding: 2% !important;
+  width: 20% !important;
   letter-spacing: 0.2ch;
   font-size: small !important;
+  margin-left: 40% !important;
   border: none !important; 
-  float: left !important; 
+  float: left !important;  
+ 
 }
 .buy-button:hover{
-
+  background-color: rgba(225, 18, 18, 0.6) !important;
 }
 .buy-button:active{
-
+  background-color: rgba(58, 0, 0, 0.6) !important;
 }
 
 .merch-pic {
@@ -349,11 +335,17 @@ margin-left: 5% !important;
 
 .shop-div {
   width: 96% !important;
-  margin-left: 1% !important;
+  margin-left: 2% !important;
   padding: 5% !important;
   background-color: rgba(0, 0, 0, 0.47) !important;
 
 }
+
+.member-shipText {
+  margin-left: 11% !important;
+    width: 80% !important;
+    letter-spacing: 0.3ch !important;
+  }
 
 /***************************************************************************/
                          /** Contact Component */
@@ -435,68 +427,6 @@ textarea {
 }
 
 
-/***************************************************************************/
-                         /**  Shop Component */
-/***************************************************************************/
-
-.nav-link {
-  color: #cd0202 !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.5ch !important;
-}
-
-.nav-tabs .nav-link.active {
-  color: #ffffff;
-  background-color: rgb(0, 0, 0);
-  border-color: #000000 #000000 rgb(0, 0, 0);
-
-}
-
-.nav-tabs {
-  border-bottom: 1px solid #000000 !important;
-}
-
-.shop-warning {
-  letter-spacing: 0.3ch !important;
-}
-
-.membership-div {
-  margin-top: 6% !important;
-  margin-left: 14% !important;
-  padding-bottom: 7% !important;
-}
-
-.member-ship {
-  width: 30% !important;
-  margin-right: 3% !important;
-  float: left !important;
-}
-
-.member-shipText {
-  text-align: left !important;
-  width: 80% !important;
-  letter-spacing: 0.3ch !important;
-}
-
-.buy-button {
-  background-color: rgb(106, 3, 3) !important;
-  border-radius: 0;
-  padding: 1% !important;
-  width: 25% !important;
-  letter-spacing: 0.2ch;
-  font-size: small !important;
-  border: none !important
-}
-
-
-
-.shop-div {
-  width: 96% !important;
-  margin-left: 2% !important;
-  padding: 5% !important;
-
-
-}
 
 /***************************************************************************/
                               /** Footer */
