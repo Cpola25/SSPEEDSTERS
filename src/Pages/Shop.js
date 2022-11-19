@@ -21,8 +21,6 @@ import { StlViewer } from "react-stl-viewer";
 const style = {
   top: 0,
   left: 0,
-  width: "20%",
-  height: "20% !important",
 };
 
 export const Shop = () => {
