@@ -35,6 +35,14 @@ color: white;
   padding-bottom: 7% !important;
  
 }
+.background3{
+  background-image: url("../Web_Images/Banner/Mexico.png");
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+  padding-top: 30% !important;
+  padding-bottom: 7% !important;
+ 
+}
 /***************************************************************************/
 /** -------------------- Fonts --------------------------------------*/
 /***************************************************************************/
@@ -263,21 +271,23 @@ color: white;
 }
 .we-be{
 width: 88% !important;
+margin-left: 5% !important;
 }
 
 /***************************************************************************/
                          /** Shop */
 /***************************************************************************/
 .nav-link {
-  color: #696969 !important;
+  color: #9e9e9e !important;
   font-weight: 700 !important;
   letter-spacing: 0.5ch !important;
 }
 
 .nav-tabs .nav-link.active {
   color: #ffffff !important;
-  background-color: rgb(73, 106, 125) !important;
-  border-color: #000000 #000000 rgb(0, 0, 0);
+  background-color: rgba(128, 7, 7, 0.374) !important;
+  border-color: #b40c0c #9f060b rgb(87, 27, 27) !important;
+  border-style: groove !important;
   border-width: 6px !important;
 
 }
@@ -331,7 +341,7 @@ width: 88% !important;
 }
 
 .merch-pic {
-  width: 20% !important;
+  width: 28% !important;
   margin-right: 5% !important;
   border-radius: 10% !important;
   margin-bottom: 3% !important;
@@ -341,7 +351,7 @@ width: 88% !important;
   width: 96% !important;
   margin-left: 1% !important;
   padding: 5% !important;
-
+  background-color: rgba(0, 0, 0, 0.47) !important;
 
 }
 
@@ -430,7 +440,7 @@ textarea {
 /***************************************************************************/
 
 .nav-link {
-  color: #696969 !important;
+  color: #cd0202 !important;
   font-weight: 700 !important;
   letter-spacing: 0.5ch !important;
 }
@@ -478,11 +488,7 @@ textarea {
   border: none !important
 }
 
-.merch-pic {
-  width: 30% !important;
-  margin-right: 5% !important;
-  border-radius: 10% !important;
-}
+
 
 .shop-div {
   width: 96% !important;
@@ -491,3 +497,61 @@ textarea {
 
 
 }
+
+/***************************************************************************/
+                              /** Footer */
+/***************************************************************************/
+
+.footer-sizing {
+  height: 6rem !important;
+  max-width: 100% !important;
+
+}
+
+.social-icons {
+  background-repeat: no-repeat !important;
+  background-color: transparent;
+  border: none !important;
+  height: 30px !important;
+  width: 2.3% !important;
+  float: left !important;
+  margin-right: 3% !important;
+  margin-top: 1% !important;
+
+}
+
+.social-icons:hover {
+  border: none !important;
+
+}
+
+.social-icons:active {
+  background-color: transparent;
+  border-color: black !important;
+}
+
+.insta {
+  background-image: url(../Web_Images/icons/insta.png) !important;
+  background-size: 100% 100%;
+  margin-left: 43% !important;
+
+}
+
+.facebook {
+  background-image: url(../Web_Images/icons/FB.png) !important;
+  background-size: 100% 100%;
+}
+
+.gitHub {
+  background-image: url(../Web_Images/icons/GitHub.png) !important;
+  background-size: 100% 100%;
+}
+
+
+.login {
+  border-color: black !important;
+  height: fit-content !important;
+  padding: 15% 7% 5% 7% !important;
+}
+
+

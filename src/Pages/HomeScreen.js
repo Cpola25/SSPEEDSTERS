@@ -9,6 +9,7 @@ import me from "../Web_Images/Me.png";
 import skate from "../Web_Images/SS.stl"; 
 import { StlViewer } from 'react-stl-viewer';
 import headerVid from '../Web_Videos/turnspeed.mp4'; 
+import { ContactUs } from '../Components/Contact';
 const style = {
   top: 0,
   left: 0,
@@ -70,7 +71,9 @@ export const HomeScreen = () => {
                 <p className="team-description font-read">Sspeedsters Co-Founder <br/> Software Developer</p>
               </div>           
             </div>
-       
+      </Row>
+      <Row>
+        <ContactUs></ContactUs>
       </Row>
 </Container>
     ); 

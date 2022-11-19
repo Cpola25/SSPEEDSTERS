@@ -1,4 +1,5 @@
 import { Button, Container, Image, Row, Tab, Tabs } from "react-bootstrap";
+
 import React, { useState } from "react";
 import Hoodie1 from "../Web_Images/Shop_Pics/Hoodies/Black_Hoodie.png"; 
 import Hoodie2 from "../Web_Images/Shop_Pics/Hoodies/Blue_Hoodie.png"; 
@@ -27,14 +28,19 @@ const style = {
 export const Shop = () => {
     const [key, setKey] = useState("profile");
     return (
-<Container className="red">
-    <Row className="font-style text-center black">
-        <h1>
+
+
+<Container className="black font-style">
+<Row className="font-style text-center black extra-padding top-margin">
+    <hr className="top-margin"></hr>
+        <h1 >
           Shop
         </h1>
        <p>     </p>
         <p className=" font-read">Become a SSPEEDSTER!</p>
     </Row>
+    <hr></hr>
+    <div className="background3 shop-div">
     <Row>
 <div className="shop-div">
         {" "}
@@ -68,7 +74,6 @@ className='stl-div'
                   COMING SOON
                 </Button>
               </div>
-              
             </div>
           </Tab>
           <Tab eventKey="/"  title="Accesories">
@@ -107,6 +112,7 @@ className='stl-div'
         </Tabs>
       </div>
       </Row>
+      </div>
 </Container>
     ); 
 }; 

@@ -29,7 +29,7 @@ export const Navigation = () => {
                   <Button href="/team" className="nav-button">
                   Team
                   </Button>
-                  <Button href="/merch" className="nav-button">
+                  <Button href="/story" className="nav-button">
                    Story
                   </Button>
                   <Button href="/shop" className="nav-button">
