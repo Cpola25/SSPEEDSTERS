@@ -277,7 +277,14 @@ color: white;
   }
 
   .video-div{
-    margin-left: 35% !important;
+    width: 90% !important;
+    padding: 2% !important;
+  }
+  .vid{
+    width: 30% !important;
+    margin-left: 40% !important;
+    margin-right: 45% !important;
+
   }
 .ban-text{
   padding-top: 10% !important;

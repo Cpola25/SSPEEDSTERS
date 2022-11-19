@@ -54,7 +54,12 @@ export const HomeScreen = () => {
 
         
     </Row>
-  
+    <Row className='black'>
+        <div className='video-div'>
+        <video controls src={headerVid}  className="vid"></video>
+        </div>
+   
+      </Row>
     <Row className="background1 grey top-margin">
             <div className="team-div font-style ">
               <h3 className="bottom-margin team-title">Meet our Team</h3>
@@ -74,6 +79,7 @@ export const HomeScreen = () => {
               </div>           
             </div>
       </Row>
+    
       <Row>
         <ContactUs></ContactUs>
       </Row>
