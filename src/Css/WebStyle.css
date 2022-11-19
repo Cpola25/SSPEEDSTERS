@@ -254,7 +254,7 @@ color: white;
     float:  left !important;
   }
   .stl-div{
-    background-color: white !important;
+    background-color: rgb(44, 1, 1) !important;
     border: black !important;
     border-style: groove !important;
     border-width: 10px !important;
@@ -264,6 +264,7 @@ color: white;
    margin-left: 1% !important;
    margin-bottom: 8% !important;
    display: block !important;
+   
   
   }
 
