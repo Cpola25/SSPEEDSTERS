@@ -21,6 +21,9 @@ import { StlViewer } from "react-stl-viewer";
 const style = {
   top: 0,
   left: 0,
+  display: "block", 
+  width: "80%",
+  height: "70% !important",
 };
 
 export const Shop = () => {
@@ -49,7 +52,7 @@ export const Shop = () => {
                   <div>
 
                     <StlViewer
-                      className="stl-div"
+                      className="stl-div element.style"
                       style={style}
                       orbitControls
                       shadows

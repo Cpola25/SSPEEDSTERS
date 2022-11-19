@@ -259,11 +259,12 @@ color: white;
     border-style: groove !important;
     border-width: 10px !important;
     width: 100% !important;
-    height: 100% !important; 
+    height: 40rem !important;
     border-radius: 0% !important;
    margin-left: 1% !important;
    margin-bottom: 8% !important;
-   
+   display: block !important;
+  
   }
 
   .video-div{
